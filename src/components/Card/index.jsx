@@ -1,8 +1,8 @@
-import React from "react";
-import { Draggable } from "react-beautiful-dnd";
-import { Container, Title, Label, Avatar } from "./styles";
+import React from 'react';
+import { Draggable } from 'react-beautiful-dnd';
+import { Container, Title, Label, Avatar } from './styles';
 
-export default function Card({ data, index }) {
+export function Card({ data, index }) {
   return (
     <Draggable key={data.id} draggableId={data.id} index={index}>
       {(provided) => (

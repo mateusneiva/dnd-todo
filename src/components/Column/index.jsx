@@ -1,9 +1,9 @@
-import React from "react";
-import { Droppable, Draggable } from "react-beautiful-dnd";
-import { Container, Title, TaskList } from "./styles";
-import Card from "../Card";
+import React from 'react';
+import { Droppable, Draggable } from 'react-beautiful-dnd';
+import { Container, Title, TaskList } from './styles';
+import { Card } from '../Card';
 
-export default function Column({ data, index }) {
+export function Column({ data, index }) {
   return (
     <Draggable draggableId={data.id} index={index}>
       {(provided) => (

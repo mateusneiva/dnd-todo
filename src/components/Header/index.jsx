@@ -1,10 +1,10 @@
-import React from 'react'
-import { Container, Title } from './styles'
+import React from 'react';
+import { Container, Title } from './styles';
 
-export default function Header() {
-    return (
-        <Container>
-            <Title>Dnd Todo</Title>
-        </Container>
-    )
+export function Header() {
+  return (
+    <Container>
+      <Title>Dnd Todo</Title>
+    </Container>
+  );
 }
