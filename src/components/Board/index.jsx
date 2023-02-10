@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { DragDropContext, Droppable } from 'react-beautiful-dnd'
-import { Container } from '../styles/components/board'
-import Column from './column'
-import loadData from '../services/api'
+import { Container } from './styles'
+import Column from '../column'
+import loadData from '../../services/api'
 
 export default function Home() {
     const [data, setData] = useState(loadData)
