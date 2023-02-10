@@ -5,7 +5,7 @@ import { Container } from './styles';
 
 import { Column } from '../Column';
 
-import loadData from '../../services/API';
+import loadData from '../../services/api';
 
 export function Board() {
   const [data, setData] = useState(loadData);
