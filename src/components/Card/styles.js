@@ -13,7 +13,7 @@ export const Container = styled.div`
   box-shadow: 0px 1px 4px #bbb;
 `;
 
-export const Title = styled.h1`
+export const Title = styled.h3`
   font-size: 16px;
   font-weight: 400;
   padding: 15px 10px 10px 15px;
@@ -21,6 +21,9 @@ export const Title = styled.h1`
 
 export const Avatar = styled.img`
   width: 25px;
+  height: 25px;
+  object-fit: cover;
+
   margin: 7px 0 0 10px;
 
   background: #fff;
@@ -30,7 +33,7 @@ export const Avatar = styled.img`
   z-index: 99;
 `;
 
-export const Label = styled.div`
+export const Label = styled.header`
   width: 100%;
   height: 20px;
 
