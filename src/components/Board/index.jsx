@@ -5,10 +5,10 @@ import { Container } from './styles';
 
 import { Column } from '../Column';
 
-import loadData from '../../services/api';
+import API from '../../services/API.json';
 
 export function Board() {
-  const [data, setData] = useState(loadData);
+  const [data, setData] = useState(API);
 
   function onDragEnd(result) {
     const { destination, source, type } = result;

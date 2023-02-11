@@ -12,8 +12,8 @@ export function Card({ data, index }) {
           {...provided.draggableProps}
           {...provided.dragHandleProps}
         >
-          <Label color={data.labels}>
-            <Avatar src={data.user} alt="User Image" />
+          <Label color={data.headerColor}>
+            <Avatar src={data.userAvatar} alt="User Avatar" />
           </Label>
           <Title>{data.content}</Title>
         </Container>

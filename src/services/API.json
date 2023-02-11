@@ -1,0 +1,65 @@
+{
+  "content": {
+    "column-1": {
+      "title": "Tasks",
+      "id": "column-1",
+      "cards": [
+        {
+          "id": "card-1",
+          "content": "Add custom window frame for Electron app",
+          "headerColor": "#54e1f7",
+          "userAvatar": "https://avatars.dicebear.com/api/big-smile/522313213.svg"
+        },
+        {
+          "id": "card-2",
+          "content": "Add custom preferences feature",
+          "headerColor": "#F52929",
+          "userAvatar": "https://avatars.dicebear.com/api/big-smile/522313213.svg"
+        },
+        {
+          "id": "card-3",
+          "content": "Update Electron Forge build config",
+          "headerColor": "#7159c1",
+          "userAvatar": "https://avatars.dicebear.com/api/big-smile/522313213.svg"
+        }
+      ]
+    },
+    "column-2": {
+      "title": "Doing",
+      "id": "column-2",
+      "cards": [
+        {
+          "id": "card-4",
+          "content": "Persistent Data with Electron Store",
+          "headerColor": "#3b5bfd",
+          "userAvatar": "https://avatars.dicebear.com/api/big-smile/522313213.svg"
+        }
+      ]
+    },
+    "column-3": {
+      "title": "On hold",
+      "id": "column-3",
+      "cards": []
+    },
+    "column-4": {
+      "title": "Done",
+      "done": true,
+      "id": "column-4",
+      "cards": [
+        {
+          "id": "card-5",
+          "content": "OAuth with Twitch API",
+          "headerColor": "#F52929",
+          "userAvatar": "https://avatars.dicebear.com/api/big-smile/522313213.svg"
+        },
+        {
+          "id": "card-6",
+          "content": "Connect bot in Twitch using the client config",
+          "headerColor": "#3b5bfd",
+          "userAvatar": "https://avatars.dicebear.com/api/big-smile/522313213.svg"
+        }
+      ]
+    }
+  },
+  "columnOrder": ["column-1", "column-2", "column-3", "column-4"]
+}
