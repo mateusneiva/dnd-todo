@@ -1,5 +1,5 @@
 <h1>
-  Dnd To Do
+  Dnd Todo
 </h1>
 
 <p>
